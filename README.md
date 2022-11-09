@@ -4,5 +4,5 @@ MATEUSZ BRODZIK
 
 ## Retos
 [Google](https://mattbrod.github.io/mb-css-flex-ses3-urbalab-07112022/google/)
-[Bing]
+[Bing](https://mattbrod.github.io/mb-css-flex-ses3-urbalab-07112022/bing/)
 [Netflix]
