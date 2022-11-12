@@ -1,7 +1,4 @@
-#temporal {
-    height: 12vh;
-}
-
+/* Cuerpo de la página */
 body {
     background-image: url(../assets/background.jfif);
     background-size: 100%;
@@ -10,10 +7,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     margin: 0;
-    height: 100%;
+    height: 100vh;
     width: 100vw;
 }
 
+/* Encabezado */
 .header {
     display: flex;
     height: 7vh;
@@ -22,23 +20,27 @@ body {
     margin-right: 20vh;
 }
 
+/* Parte izquierda del encabezado */
 .left {
     display: flex;
     width: 50vw;
     align-items: center;
 }
 
+/* Texto de la parte izquierda del encabezado */
 .left p{
     margin-left: 3vh;
     margin-right: 3vh;
 }
 
+/* Logo de Microsoft Bing */
 .left img {
     margin-left: 3vh;
     margin-right: 3vh;
     height: 12vh;
 }
 
+/* Parte derecha del encabezado */
 .right {
     display: flex;
     width: 50vw;
@@ -46,32 +48,38 @@ body {
     align-items: center;
 }
 
+/* Texto de la derecha del encabezado */
 .right p{
     margin-left: 3vh;
     margin-right: 3vh;
 }
 
+/* Iconos de la derecha del encabezado */
 .right img {
     margin-right: 3vh;
     height: 2em;
     width: 2em;
 }
 
+/* Reducción de margen entre el texto e icono para iniciar sesión y rewards */
 #junto {
     margin-right: 1vh;
 }
 
+/* Parte central de la web (Barra de búsqueda) */
 .main {
     display: flex;
     justify-content: center;
     height: 57.9vh;
 }
 
+/* Div donde se encuentra la barra de búsqueda */
 .search {
     display: flex;
     align-items: center;
 }
 
+/* Barra de búsqueda */
 input {
     border-radius: 30px;
     width: 100%;
@@ -87,10 +95,12 @@ input {
     background-position: 74vh, 80vh, 85vh;
 }
 
+/* Icóno importado de Bootstrap */
 i {
     color: white;
 }
 
+/* Div con los falsos botones */
 .button {
     display: flex;
     align-items: center;
@@ -99,16 +109,14 @@ i {
     text-align: center;
 }
 
-.geo {
-    display: flex;
-}
-
+/* Botón de la izquierda */
 .left-square {
     display: flex;
     width: 50vw;
     justify-content: left;
 }
 
+/* Botones de la derecha */
 .right-square {
     display: flex;
     width: 50vw;
@@ -118,6 +126,7 @@ i {
     border-radius: 1px;
 }
 
+/* Falsos botones */
 .square {
     margin: 0;
     background-color: rgba(0, 0, 0, 0.788);
@@ -126,11 +135,13 @@ i {
     border-radius: 5px;
 }
 
+/* Texto en falsos botones */
 .square p {
     margin: 0;
     margin-top: 1vh;
 }
 
+/* Botón alargado sobre info de la fotografía del día */
 .fondo {
     background-color: rgba(0, 0, 0, 0.788);
     height: 5vh;
@@ -139,11 +150,13 @@ i {
     border-radius: 5px;
 }
 
+/* Texto del botón alargado */
 .fondo p {
     margin: 0;
     margin-top: 1vh;
 }
 
+/* Carusel de noticias */
 .slideshow {
     display: flex;
     margin-left: 20vh;
@@ -153,38 +166,45 @@ i {
     margin-top: 1vh;
 }
 
+/* Div noticia */
 .noticia {
     background-color: rgba(0, 0, 0, 0.788);
     border-radius: 5px;
 }
 
+/* Título de la noticia */
 .noticia p{
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
+/* Pie de página */
 .footer {
     background-color: rgb(51,51,51);
     color: grey;
 }
 
+/* Texto del pie de página */
 .footer p {
     margin-left: 2vh;
     margin-right: 2vh;
 }
 
+/* Primera línea del pie de página */
 .linea1 {
     display: flex;
     margin-left: 20vh;
     margin-right: 20vh;
 }
 
+/* Parte izquierda de la primera línea del pie de página */
 .linea1-left {
     display: flex;
     width: 80vw;
     align-items: center;
 }
 
+/* Parte derecha de la primera línea del pie de página */
 .linea1-right {
     display: flex;
     width: 20vw;
@@ -192,6 +212,7 @@ i {
     justify-content: right;
 }
 
+/* Segunda línea del pie de página */
 .linea2 {
     display: flex;
     margin-left: 20vh;
